@@ -1,0 +1,41 @@
+{
+  "app": {
+    "title": "UnlockMyLead",
+    "tagline": "KI-gestützte Vertriebsautomatisierungsplattform"
+  },
+  "auth": {
+    "login": "Anmelden",
+    "signup": "Registrieren",
+    "logout": "Abmelden",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "confirmPassword": "Passwort bestätigen",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "company": "Unternehmen"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Willkommen bei UnlockMyLead",
+    "totalLeads": "Gesamte Leads",
+    "activeCampaigns": "Aktive Kampagnen",
+    "totalCampaigns": "Gesamte Kampagnen",
+    "searchLeads": "Leads suchen",
+    "createCampaign": "Neue Kampagne erstellen"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "leads": "Leads",
+    "campaigns": "Kampagnen",
+    "analytics": "Analytik",
+    "integrations": "Integrationen",
+    "settings": "Einstellungen"
+  },
+  "common": {
+    "loading": "Laden...",
+    "error": "Fehler",
+    "success": "Erfolg",
+    "cancel": "Abbrechen",
+    "save": "Speichern"
+  }
+}

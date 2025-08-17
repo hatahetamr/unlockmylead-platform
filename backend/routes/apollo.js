@@ -1,5 +1,6 @@
 const express = require('express');
-const ApolloService = require('../services/apolloService');
+const ApolloService = require('../src/services/ApolloService');
+const admin = require('firebase-admin');
 
 const router = express.Router();
 const apolloService = new ApolloService();

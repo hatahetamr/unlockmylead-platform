@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "UnlockMyLead",
+    "tagline": "Plataforma de Automatización de Ventas con IA"
+  },
+  "auth": {
+    "login": "Iniciar Sesión",
+    "signup": "Registrarse",
+    "logout": "Cerrar Sesión",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar Contraseña",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "company": "Empresa",
+    "loginSuccess": "¡Inicio de sesión exitoso!",
+    "signupSuccess": "¡Cuenta creada exitosamente!",
+    "loginError": "Error al iniciar sesión. Verifique sus credenciales.",
+    "signupError": "Error en el registro. Inténtelo de nuevo.",
+    "passwordMismatch": "Las contraseñas no coinciden",
+    "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+    "dontHaveAccount": "¿No tienes una cuenta?"
+  },
+  "dashboard": {
+    "title": "Panel de Control",
+    "welcome": "Bienvenido a UnlockMyLead",
+    "totalLeads": "Total de Prospectos",
+    "activeCampaigns": "Campañas Activas",
+    "totalCampaigns": "Total de Campañas",
+    "searchLeads": "Buscar Prospectos",
+    "createCampaign": "Crear Nueva Campaña",
+    "keywords": "Palabras clave (ej., CEO, Director de Marketing)",
+    "location": "Ubicación (ej., Madrid, Barcelona)",
+    "industry": "Industria (ej., Tecnología, Salud)",
+    "campaignName": "Nombre de la Campaña",
+    "campaignMessage": "Mensaje de la Campaña",
+    "voice": "Voz",
+    "language": "Idioma",
+    "searching": "Buscando...",
+    "creating": "Creando...",
+    "searchLeadsBtn": "Buscar Prospectos",
+    "createCampaignBtn": "Crear Campaña",
+    "campaignCreated": "¡Campaña creada exitosamente!",
+    "leadsFound": "¡Prospectos encontrados exitosamente!",
+    "defaultVoice": "Voz Predeterminada",
+    "maleVoice": "Voz Masculina",
+    "femaleVoice": "Voz Femenina"
+  },
+  "navigation": {
+    "dashboard": "Panel",
+    "leads": "Prospectos",
+    "campaigns": "Campañas",
+    "analytics": "Analíticas",
+    "integrations": "Integraciones",
+    "settings": "Configuración"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "save": "Guardar"
+  }
+}

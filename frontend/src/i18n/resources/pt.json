@@ -1,0 +1,41 @@
+{
+  "app": {
+    "title": "UnlockMyLead",
+    "tagline": "Plataforma de Automação de Vendas com IA"
+  },
+  "auth": {
+    "login": "Entrar",
+    "signup": "Cadastrar",
+    "logout": "Sair",
+    "email": "Email",
+    "password": "Senha",
+    "confirmPassword": "Confirmar Senha",
+    "firstName": "Nome",
+    "lastName": "Sobrenome",
+    "company": "Empresa"
+  },
+  "dashboard": {
+    "title": "Painel",
+    "welcome": "Bem-vindo ao UnlockMyLead",
+    "totalLeads": "Total de Leads",
+    "activeCampaigns": "Campanhas Ativas",
+    "totalCampaigns": "Total de Campanhas",
+    "searchLeads": "Buscar Leads",
+    "createCampaign": "Criar Nova Campanha"
+  },
+  "navigation": {
+    "dashboard": "Painel",
+    "leads": "Leads",
+    "campaigns": "Campanhas",
+    "analytics": "Análises",
+    "integrations": "Integrações",
+    "settings": "Configurações"
+  },
+  "common": {
+    "loading": "Carregando...",
+    "error": "Erro",
+    "success": "Sucesso",
+    "cancel": "Cancelar",
+    "save": "Salvar"
+  }
+}

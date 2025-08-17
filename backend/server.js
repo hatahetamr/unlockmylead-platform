@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 8080;
@@ -15,9 +16,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Import route handlers
+const authRoutes = require('./routes/auth');
 const hubspotRoutes = require('./routes/hubspot');
 const apolloRoutes = require('./routes/apollo');
 const crmRoutes = require('./routes/crm');
+const callRoutes = require('./routes/calls');
+const messageRoutes = require('./routes/messages');
 
 // Mock data for voices (7 voice models as mentioned in the task)
 const voices = [
@@ -190,9 +194,13 @@ app.use((err, req, res, next) => {
 });
 
 // Use CRM and Lead Generation routes
+app.use('/api/auth', authRoutes);
+app.use('/api/integrations', require('./routes/integrations'));
 app.use('/api/hubspot', hubspotRoutes);
 app.use('/api/apollo', apolloRoutes);
 app.use('/api/crm', crmRoutes);
+app.use('/api/call', callRoutes);
+app.use('/api/message', messageRoutes);
 
 // 404 handler
 app.use('*', (req, res) => {
@@ -212,6 +220,8 @@ app.listen(PORT, () => {
     console.log(`   GET  /api/voices - Get all voice models`);
     console.log(`   GET  /api/languages - Get all supported languages`);
     console.log(`   POST /api/voice-preview - Generate voice preview`);
+    console.log(`   POST /api/call/initiate - Initiate outbound call`);
+    console.log(`   POST /api/message/send - Send SMS message`);
     console.log(`   GET  /health - Health check`);
 });
 
