@@ -90,7 +90,7 @@ app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
 
-const express = require('express');
+
 const cors = require('cors');
 const dotenv = require('dotenv');
 const helmet = require('helmet');
@@ -190,3 +190,4 @@ async function startServer() {
 startServer();
 
 module.exports = app;
+  
